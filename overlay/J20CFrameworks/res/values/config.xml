@@ -543,7 +543,7 @@
          appended after the path string to interpret coordinates in dp instead of px units.
          Note that a physical cutout should be configured in pixels for the best results.
         -->
-    <string name="config_mainBuiltInDisplayCutout" translatable="false">
+    <!-- <string name="config_mainBuiltInDisplayCutout" translatable="false">
         M 0,0
         H -36
         V 91
@@ -551,10 +551,10 @@
         V 0
         H 0
         Z
-    </string>
+    </string> -->
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps">true</bool>
+    <bool name="config_is_powerbutton_fps">false</bool>
 
     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
          Note: this value is temporary and is expected to be queried directly
