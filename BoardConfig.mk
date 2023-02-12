@@ -18,6 +18,10 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/surya
 
+#Gapps
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/surya/BoardConfigVendor.mk
 
