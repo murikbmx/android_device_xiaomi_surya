@@ -17,6 +17,9 @@
 # Product launched with 10.0
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+#Gapps
+include vendor/gapps/arm64/arm64-vendor.mk
+
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
 
